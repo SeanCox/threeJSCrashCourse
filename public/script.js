@@ -14,7 +14,7 @@ var render = function(){
 }
 
 var GameLoop = function(){
-  requestAimationFrame(GameLoop)
+  requestAnimationFrame(GameLoop)
 
   update()
   render()

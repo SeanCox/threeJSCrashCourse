@@ -7,5 +7,5 @@ app.use(express.static('public'))
 
 const port = 1337
 app.listen(port, ()=>{
-  console.log(`three listening on ${port}`)
+  console.log(`three is listening on port ${port}`)
 })
