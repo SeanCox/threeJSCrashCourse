@@ -1,0 +1,24 @@
+{
+  "name": "threejscrashcourse",
+  "version": "0.0.1",
+  "description": "Sean Cox is learning three.js",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCox/threeJSCrashCourse.git"
+  },
+  "author": "Sean Cox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCox/threeJSCrashCourse/issues"
+  },
+  "homepage": "https://github.com/SeanCox/threeJSCrashCourse#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "three": "^0.81.2"
+  }
+}
