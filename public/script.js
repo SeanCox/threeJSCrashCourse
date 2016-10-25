@@ -15,6 +15,12 @@ window.addEventListener('resize', function(){
 
 controls = new THREE.OrbitControls(camera, renderer.domElement)
 
+var loader = new THREE.ObjectLoader()
+
+//loader.load('img/models/google-cardboard.json', function(object){
+//    scene.add(object)
+//})
+
 //create the shape
 var geometry = new THREE.BoxGeometry(1, 1, 1)
 var cubeMaterials = [
